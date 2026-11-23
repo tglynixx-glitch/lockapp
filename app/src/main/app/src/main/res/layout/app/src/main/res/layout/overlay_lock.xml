@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:background="#000000" android:padding="24dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="SYSTEM LOCKED" android:textColor="#ff3b3b"
+        android:textSize="28sp" android:textStyle="bold"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:text="Телефон заблокирован"
+        android:textColor="#888" android:textSize="14sp"/>
+
+    <EditText android:id="@+id/etPass"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="32dp" android:inputType="numberPassword"
+        android:hint="Введите код" android:textColor="#fff" android:gravity="center"/>
+
+    <Button android:id="@+id/btnUnlock"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="РАЗБЛОКИРОВАТЬ"
+        android:backgroundTint="#ff3b3b" android:textColor="#fff"/>
+
+    <TextView android:id="@+id/tvMsg"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:textColor="#ff3b3b"/>
+</LinearLayout>
